@@ -4,15 +4,19 @@
 // Description : Tools files for C++
 
 #include<iostream>
-
+#include"KTTools.h"
 using namespace std;
 
 
 int main()
 {
+    
     cout << "Hello World" << endl;
-    cout << "Testing Puruposes" << endl;
+    cout << "Testing Purposes" << endl;
 
-    system("pause");
+    int input = getInteger("Enter an integer: ");
+
+    cout << "Your integer is: " << input << endl;
+    
     return 0;
 }
